@@ -1,15 +1,19 @@
-test('should return "I" for 1', () => {
-  expect(convertToRoman(1)).toBe('I');
+test('should return "X" for 10', () => {
+  expect(convertToRoman(10)).toBe('X');
 });
 
-test('should return "II" for 2', () => {
-  expect(convertToRoman(2)).toBe('II');
+test('should return "XX" for 20', () => {
+  expect(convertToRoman(20)).toBe('XX');
 });
 
-test('should return "V" for 5', () => {
-  expect(convertToRoman(5)).toBe('V');
+test('should return "L" for 50', () => {
+  expect(convertToRoman(50)).toBe('L');
 });
 
-test('should return "VII" for 7', () => {
-  expect(convertToRoman(7)).toBe('VII');
+test('should return "C" for 100', () => {
+  expect(convertToRoman(100)).toBe('C');
+});
+
+test('should return "D" for 500', () => {
+  expect(convertToRoman(500)).toBe('D');
 });
